@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Arquitetura de um projeto</title>
+    <link rel="stylesheet" href="./../../css/bootstrap.css">
+    <link rel="stylesheet" href="./../css/devs.css">
+
+</head>
+
+<div class="container text-sm-left " style="margin: auto;">
+    <div class="offcanvas offcanvas-top" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+        <div class="offcanvas-header">
+            <h5 id="offcanvasTopLabel">Offcanvas top</h5>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            ...
+        </div>
+    </div>
+
+    <body>
+
+        <nav class="navbar shadow-sm p-3 mb-1 bg-body rounded">
+            <div class="container-fluid bg-light">
+                <div>
+                    <a class="navbar-brand" href="./../Pag_inicial.html" style="display: inline-block;">
+                        <img src="./../../assets/capivara.png" alt="Logo" width="45" height="45">
+                        <h2 style="display: inline-block; flex-direction: row; margin-right: 5; margin-left: 9px; ">
+                            EDUDIN.</h2>
+                    </a>
+                </div>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel" style="margin-left: 20px;">Atalhos</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    
+                    <div class="offcanvas-body" style="align-content: left; text-align: left; margin-left: 20px;">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="./../Pag_inicial.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active"  aria-current="page" href="./../devs.html">DEVS</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link active"  aria-current="page" href="./../Pag_ODS.html">ODS</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active"  aria-current="page" href="./../Pag_visao.html">VISÃO</a>
+                        </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Conteúdos</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="./../Pag_conteudo.html">Geral</a></li>
+                                    <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item" href="./../Conteudo_basico/Pag_conteudo_basico.html">Básico</a></li>
+                                <li><a class="dropdown-item" href="./../Conteudo_medio/Pag_conteudo_medio.html">Médio</a></li>
+                                <li><a class="dropdown-item" href="./../Conteudo_avancado/Pag_conteudo_avancado.html">Avançado</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                       
+                    </div>
+                     
+                    </div>
+                </div>
+        </nav>
+</div>
+<br><br><br><br>
+    <div style="display: inline-block; align-content: left; text-align: left;">
+
+        <h4>1 - Aprendemos que sonhos é o desejo vivo, a aspiração, o anseio. Pode ser</h4>
+        <h4>entendido como a ideia ou o ideal que se quer alcançar. Já o projeto é o</h4>
+        <h4>sonho colocado "no papel", para que possamos visualizar melhor os</h4>
+        <h4>caminhos que devemos seguir para alcançá-lo. As alternativas abaixo</h4>
+        <h4>descrevem as características de um projeto, exceto:</h4>
+<br><br><br>
+        <div style="margin-left: 90px; ">
+
+            <!-- resposta certa -->
+            <div class="form-check" >
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                <label class="form-check-label" for="exampleRadios1">
+                <h5 style="font-weight: 375;">Feito com recursos ilimitados.</h5>
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                <label class="form-check-label" for="exampleRadios2">
+                <h5 style="font-weight: 375;">Entrega de produtos, serviços ou resultados específicos.</h5>
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3">
+                <label class="form-check-label" for="exampleRadios3">
+                <h5 style="font-weight: 375;">Tem início, meio e fim. É temporário.</h5>
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios4" value="option4">
+                <label class="form-check-label" for="exampleRadios4">
+                <h5 style="font-weight: 375;">É dividido em etapas.</h5>
+                </label>
+            </div>
+        </div>
+<br><br>
+        <h4>2 - Sob a ótica da gestão financeira pessoal, assinale a alternativa verdadeira.</h4>
+        <br><br>
+        <div style="margin-left: 90px; ">
+        <h5 style="font-weight: 400;">( ) Nescessidade é tudo aquilo de que precisamos, independentemente de nossos </h5>
+        <h5 style="font-weight: 400;">anseiros. São coisas abasolutamente indispensáveis para nossa vida.</h5>
+        <h5 style="font-weight: 400;">( ) Não devemos satisfazer nossos desejos, pois eles atrapalham nossa</h5>
+        <h5 style="font-weight: 400;">gestão financeira.</h5>
+        <h5 style="font-weight: 400;">( ) Transfomar projetos em sonhos é a melhor maneira para se conseguir realizar um</h5>
+        <h5 style="font-weight: 400;">desejo que demanda recursos financeiros.</h5>
+        <h5 style="font-weight: 400;">( ) As escolhas financeiras devem ser tomadas de modo equilibrado, considerando-se </h5>
+        <h5 style="font-weight: 400;">tanto o lado emocional quanto o lado racional.</h5>
+        <h5 style="font-weight: 400;">( ) Juros podem ser entendidos como o custo da realização de uma troca interporal quando</h5>
+        <h5 style="font-weight: 400;">antecipamos determinado consumo</h5>
+<br><br>
+        <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+            <label class="form-check-label" for="inlineRadio1"><h5>F - F - V - V - F.</h5></label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+            <label class="form-check-label" for="inlineRadio2"><h5>F - V - V - F - V</h5></label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+            <label class="form-check-label" for="inlineRadio2"><h5>V - F - F - V - V<h5></label>
+          </div>
+          <div class="form-check form-check-inline">
+            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+            <label class="form-check-label" for="inlineRadio2"><h5>V - V - F - V - F<h5></label>
+          </div>
+        
+    </div>
+<br><br><br>
+    </div>
+</div>  
+        
+        <br><br><br><br><br><br><br><br><br>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"></script>
+
+    </body>
+</html>
